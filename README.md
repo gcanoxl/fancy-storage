@@ -4,13 +4,13 @@ A BaaS service makes offline-first storage and cross-platform synchronization wi
 # Key Features
 
 - 🧠 **Silky-smooth Synchronization**: Automatically syncs with cloud data after local state changes.
-- ⚡ **Seamless Use Experience**: Manage local states only and let the package handle the rest.
-- 🗂️ **Schema Support**: Define data schemas to ensure consistency and type hinting in your IDEs.
+- ⚡ **Seamless Use Experience**: Manage cloud states just as using normal state management frameworks.
 - 📱 **Offline First**: Fully supports offline operations, automatically syncing when the network is restored.
+- 🗂️ **Schema Support**: Define data schemas to ensure consistency and type hinting in your IDEs.
 - 🌐 **Multi-Platform Support**: Supports iOS / Android / macOS / Web.
 - 🔒 **Secure Data Isolation**: Each sync_id is managed independently to ensure privacy and security.
 
-## Installation
+## 📦 Installation
 
 To install the `fancy_storage` package, add the following dependency to your `pubspec.yaml` file:
 
@@ -25,13 +25,13 @@ Alternatively, you can install it via the command line using the following comma
 flutter pub add fancy_storage
 ```
 
-# Usage
+# 🚀 Usage
 
 Fancy Storage has a so smooth learning curve that you can use it in a matter of minutes literally.
 
 By understanding its basic concepts and with a little previous experience in Flutter(have used any state management framework like `provider`, `riverpod` or `bloc`), you can easily get started with this package.
 
-## Basic Concepts
+## 📚 Basic Concepts
 There are 3 basic concepts you need to know to be a master of Fancy Storage(Yes, not an amateur but a master within several minutes only).
 
 They are:
@@ -39,7 +39,7 @@ They are:
 2. Schemas and how to define them.
 3. `api_key` and `sync_id`.
 
-### Three Levels of Storage
+### 🗄️ Three Levels of Storage
 
 | Type | Description | Use Case |
 |------|-------------|----------|
@@ -47,10 +47,10 @@ They are:
 | local | Stored locally, not involved in synchronization | Cache, platform settings, third-party API return data |
 | sync | Stored and automatically synced to the cloud | User data, multi-device consistency |
 
-#### Q: Can I just use memory level storage?
+#### ❓ Q: Can I just use memory level storage?
 Yes, you can use memory level storage. If you use it that way, it can be used as a ordinary state management tool. And the answer can be used to answer another question of Can I just use memroy and local level storage.
 
-### Schemas
+### 📑 Schemas
 
 <!---->
 <!-- # APIs -->
